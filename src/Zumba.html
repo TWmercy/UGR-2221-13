@@ -1,0 +1,161 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fittly Fitness-Zumba class</title>
+
+</head>
+<body>
+    <header class="vid">
+        <img src="images/Fittly-logo.jpg" alt="Fittly Fittness logo">
+        <h1>Fittly Fitness</h1>
+    
+        <video controls>
+            <source src="videos\Zumba vid_001.mp4" type="video/mp4">
+            <track kind="captions" src="captions z.vtt" srclang="en"
+            label="English" >
+            <p>
+               7 women jummping in a studio infront of a mirror. the women then stert to move side to side moving thier arms as well.
+            </p>
+         </video>
+
+            
+    </header>
+    <Section class="zumba">
+    <nav>
+        <ul>
+            <li><a href="Home.html" >Home</a></li>
+            <li><a href="AboutUs.html" >About US</a></li>
+            <li><a href="ContactUs.html" >Contact Us</a></li>
+            <li><a href="Classes.html" >Classes</a></li>
+        </ul>
+    </nav>
+    <h2>Zumba class</h2>
+    <table>
+        <caption>Zumba class weekly Schedule</caption>
+        <tr>
+            <th>Session no</th>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Instructor</th>
+            <th>price</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>Monday and Saturday</th>
+            <th>5:00pm - 8:00pm</th>
+            <th>Ir. Mercy Shimelis</th>
+            <th>2000.00 ETB</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>Friday and  Sunday</th>
+            <th>8:00am - 11:00am </th>
+            <th>Ir. Nesu Tewdros</th>
+            <th>2000.00 ETB</th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th>Saturday</th>
+            <th>6:00pm - 9:00pm </th>
+            <th>Ir. Hewan wonde</th>
+            <th>1500.00 ETB</th>
+        </tr>
+    </table>
+    <section class="sign">
+        <h3>Sign Up<h3>
+         <!-- form will be submitted to a database-->
+            <form action="zumba.php" method="post">
+                
+                  <label for="Fullname">Full Name</label>
+                  <input type = "text"name="Fullname" id="Fullname" placeholder="First name, middle name, Lastname" required>
+                <br>
+              
+                    <label for ="Age">Age</label>
+                    <input type= "number"name="Age" id="Age">
+                
+               
+                    <label for="Phone">Phone number</label>
+                    <input type="tel"name="Phone" id="Phone" placeholder="+251XXXXXXXXX">
+            
+                <br>
+                    <label for="Email">Email</label>
+                    <input type= "email" name="Email" id="Email" placeholder="example@gmail.com" required>
+                 <br>
+                
+                    <label for="sessionno">Session no</label>
+                    <select name="Session no" id="sessionno"  required>
+                        <option value="1">Session no 1</option>
+                        <option value="2">Session no 2</option>
+                    </select>
+                    <br>
+              
+                  
+                    <div class="container">
+
+                        <button type="submit">Sign up</button> 
+                        <!-- the next line of code is for a popup confirmation that will be finished with JS -->
+                
+                        <div class="popup">
+                          <p>You have successfuly signed up, we will contact you with payment information shortly</p>
+                          <button type="button">OK</button>
+      
+                        </div>
+      
+                       </div>
+            </form>
+    </section>
+    <p1>Not sure yet</p1>
+    <p1>Hear from our devoted class participants </p1>
+    <p>
+        <!-- A link to a transcript within the same document -->
+          <a rel="transcript" for="theAudio" title="English transcript" href="#theText">Transcript below</a>
+    </p>      
+    <audio controls>
+        <source src="audio\zumba sec.mp3" type="audio/mp3">
+    </audio>
+    <transcript id="theText">
+        music playing at the begining <br>
+        participant 1: just had a fabilous master class with Almando had we had a great Time.<br>
+        participant 2: Amazing.<br>
+        participant 1: great time.<br>
+        participant 2: the best.<br>
+        interviewer: awsome thank you for comming.<br>
+        interviewer: Good morning suzan how are you<br>
+        woman:am good am good<br>
+        interviewer:you  just finished a zumba class.<br>
+        woman:yes, it was amazing all the best instructors
+        alright<br>
+        woman: we are so lucky thankyou<br>
+        interviwer:aww thank you suzan. <br>
+        man:thank you so much this was a great class <br>
+        interviewr:thank you amando you r the best.<br>
+        Almando:thank you so much i wanna thank you all for giving me this opprtunity, i hope to do more master classes.<br>
+        interviewer:we want more of you for sure.
+
+
+
+
+    </transcript>
+    
+ 
+  <footer>
+    <p class="add">Address</p>
+    <p1>Bole sub-city Ayat zone 5 Tesfu bulding 9th floor.</p1>
+ 
+      <img src="images\insta.jpg" alt="Instagram icon">
+      <a href="https://instagram.com/fitly_officialpage?igshid=OGQ2MjdiOTE=">@fitly_officialpage</a>
+   
+      <img src="images\facebook.jpg" alt="Facebook icon">
+      <a href="https://m.facebook.com/fitlyofficialpage/">@Fitly</a>
+    \
+    
+       <img src="images\email.jpg"alt="gmail icon">
+       <a href="fitly@gmail.com">fitly@gmail.com</a>
+    
+
+</footer>
+    
+</body>
+</html>
