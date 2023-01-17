@@ -1,0 +1,164 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fittly Fitness-yoga class</title>
+    <link rel="stylesheet" href="cyc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header class="head">
+        <div class="parent">
+        <video controls class="relative">
+            <source src="videos\Yoga vid_001.mp4" type="video/mp4">
+            <track kind="captions" src="caption x.vtt" srclang="en"
+            label="English" >
+            <p>
+              men and women doing different yoga poses in a yoga class with one male instructor.
+                </p></video>
+                <div class="child">
+                <img class="relative__logo" src="images/Fittly-logo.jpg" alt="Fittly Fittness logo">
+                <h1>FittlyFitness</h1>
+                </div>
+        </div>
+    </header>
+    
+    <Section>
+    <nav>
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="AboutUs.html" >About US</a></li>
+            <li><a href="ContactUs.html" >Contact Us</a></li>
+            <li><a href="Classes.html" >Classes</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <h2> Moderate Flow yoga class</h2>
+    <table>
+        <caption>Moderate flow yoga class weekly Schedule</caption>
+        <tr>
+            <th>Session no</th>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Instructor</th>
+            <th>price</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>Tuesday,Thursday and Sunday</th>
+            <th> 8:00am - 5:00am </th>
+            <th>Michael Tesfaye</th>
+            <th>4000.00 ETB/mon</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>Saturday , Monday and Wednesday</th>
+            <th> 5:00pm  - 8:00pm</th>
+            <th>Brook Solomon</th>
+            <th>4000.00 ETB/mon</th>
+           
+        </tr>
+      
+    </table>
+    <section class="sign">
+        <div class="for">
+        <h3>Sign Up<h3>
+             <!-- form will be submitted to a database-->
+        
+           <form action="yoga.php" method="post">
+                
+                <div class= "input-group">
+                  <label class="input-group__lable" for="Fullname">Full Name</label>
+                  <input class="form-input" type = "text"name="Fullname" id="Fullname" placeholder="First name, middle name, Lastname" required>
+                  <span id="name-error"></span>
+                <br></div>
+                <div class="input-group">
+                    <label class="input-group__lable" for ="Age">Age</label>
+                    <input class="form-input"  type= "number"name="Age" id="Age">
+                    
+                </div>
+                <div class="input-group">
+                    <label class="input-group__lable" for="Phone">Phone number</label>
+                    <input class="form-input"  type="tel"name="Phone" id="Phone" placeholder="+251XXXXXXXXX">
+                    <span id="phone-error"></span>
+            
+                <br></div>
+                <div class="input-group">
+                    <label class="input-group__lable" for="Email">Email</label>
+                    <input class="form-input"  type= "email" name="Email" id="Email" placeholder="example@gmail.com" required>
+                    <span id="email-error"></span>
+                 <br></div>
+                 <div class="input-group">
+                   
+                    <label class="input-group__lable" for="sessionno">Session no</label>
+                    <select name="Session no" id="Sessionno"  required>
+                        <option value="1">Session no 1</option>
+                        <option value="2">Session no 2</option>
+                    </select>
+                    <span id="session-error"></span>
+                    <br></div>
+              
+                    <!--
+                    <div class="container">-->
+
+                        <button type="submit" class="container__btn" onclick="alertFunction()">Sign up</button>  
+                        <!--<div class="popup" id="popup">
+                            <p>You have successfuly signed up, we will contact you with payment information shortly</p>
+                            <button type="button" onclick="closePopup()">OK</button>
+                        </div>
+                        
+                        
+      
+                       </div>-->
+
+            </form>
+        </div>
+    </section>
+    <!--<script defer src="java.js"></script>-->
+    <div class="audio">
+    <p1>Not sure yet</p1>
+    <p1>listen to Jenefer speak on our yoga retreat</p1>
+    <p>
+        <!-- A link to a transcript within the same document -->
+        <a rel="transcript" for="theAudio" title="English transcript" href="#theText">Transcript below</a>
+    </p>      
+    <audio controls>
+        <source src="audio\yogo sec.mp3" type="audio/mp3">
+    </audio>
+    <transcript id="theText">
+        my name is jenefer from the den, the lion's den, the yoga studio in orange vill and i am wanting to give thank to liz and the yoga class.
+        this is our third year and perhaphs our sixth retreat. she is the most amazing hostes and the most amazing peace of paradize and when guest and i talk about what it is like here.
+        it feels like love is poured in to the foundation and it poured it to the delicious food and in the sheets and the perfect pillows, its in every detail in a loving open way. and as some one who wants to bring people in to the retreat.
+        and that is something that yoga teachers and yoga studios. she is a dream come true. even when i am working i dont feel like i am because i am being supported by liz and her long arms of love.
+        if you have any oppourtunity get you butt up here it is the most  incredible place and a weekend feels like a week here.
+
+
+    </transcript>
+</div>
+  </Section>
+  <footer>
+    <p class="add">Address</p>
+    <p1>Bole sub-city Ayat zone 5 Tesfu bulding 9th floor.</p1>
+ 
+      <img class="icon" src="images\insta.jpg" alt="Instagram icon">
+      <a href="https://instagram.com/fitly_officialpage?igshid=OGQ2MjdiOTE=">@fitly_officialpage</a>
+   
+      <img class="icon" src="images\facebook.jpg" alt="Facebook icon">
+      <a href="https://m.facebook.com/fitlyofficialpage/">@Fitly</a>
+    \
+    
+       <img  class="icon" src="images\email.jpg"alt="gmail icon">
+       <a href="fitly@gmail.com">fitly@gmail.com</a>
+    
+
+</footer>
+    </div>
+ <script src="java.js"></script>
+</body>
+</html>
